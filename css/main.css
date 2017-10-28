@@ -1,0 +1,160 @@
+#survey {
+  background: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  right: 20px;
+  height: 600px;
+  position: fixed;
+  width: 350px;
+}
+
+.survey .header {
+  height: 45px;
+  background-color: #333;
+  border-color: #1a6b96;
+  background: linear-gradient(to bottom, #333 0% ,#333 90%, #1a6b96 30%, #1a6b96);
+}
+
+.header .logo{
+  width: 35%;
+  margin: 7px 0 0 15px;
+  display: inline-block;
+  float: left;
+}
+.logo > img{
+  width: 100%;
+}
+.header .close{
+  color: white;
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 13px 8px 0 190px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.user-form{
+  margin: 0 0 -45px 40px;
+  width: 80%;
+  min-height: 90%;
+}
+
+.valid h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  width: 80%;
+  margin-bottom: 20px;
+  min-height: 90%;
+}
+.valid p {
+  font-family: sans-serif;
+  line-height: 24px;
+}
+
+
+.survey h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 27px 3px;
+  width: 550px;
+}
+
+
+/* .valid h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 27px 3px;
+  width: 550px;
+} */
+
+input, label {
+    display:block;
+}
+
+.user-form .lbl{
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 0.7em;
+}
+
+.name, .phone, .us-state, .user-question {
+   margin-bottom: 20px;
+}
+
+.inputForm{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 0 5px 5px;
+  margin: 3px 0 0 0;
+  width:90%;
+  height: 2em;
+}
+
+@media (hover: hover) {
+  .inputForm:hover {
+    background: rgb(200, 221, 247);
+    border: 1px solid rgb(77, 115, 175);
+  }
+}
+
+.select{
+  width: 92%;
+}
+
+#state{
+  height: 40px;
+}
+
+#question{
+  height: 3em;
+}
+
+/*#submit {
+   margin-left: 16em;
+}*/
+
+#submit {
+   color: white;
+   background-color: 	rgb(66,139,202);
+   cursor: pointer;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 12px;
+   padding: 5px 0 5px 5px;
+   margin-left: 10.3em;
+   width:48%;
+   height: 2.9em;
+}
+
+.required {
+   font-size: 11px;
+   margin: 1em 0 0 17em;
+}
+
+.invalid{
+  border-color: red;
+  color: red;
+  background-color: pink;
+}
+
+.invalidlbl{
+  border-color: red;
+  color: red;
+}
+
+.survey .footer {
+  height: 45px;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 45px;
+  position: fixed;
+  bottom: 0;
+  width: inherit;
+}
+
+#footer{
+  font-size: 11px;
+}
